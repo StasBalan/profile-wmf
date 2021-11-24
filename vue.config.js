@@ -12,7 +12,7 @@ module.exports = {
                 name: "profile",
                 filename: "remoteProfileEntry.js",
                 remotes: {
-                    // shell: "shell@http://localhost:8083/remoteEntry.js",
+                    shell: "shell@https://shell-wmf.vercel.app/remoteEntry.js",
                 },
                 exposes: {
                     "./Profile": "./src/views/Profile.vue",

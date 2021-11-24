@@ -1,8 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-// import CountModule from "shell/CountModule";
-
-// console.log(CountModule);
+import CountModule from "shell/CountModule";
 
 // console.log('asf', store);
 
@@ -19,6 +17,6 @@ export default new Vuex.Store({
   },
   actions: {},
   modules: {
-    // countModule: CountModule
+    countModule: CountModule
   },
 });
