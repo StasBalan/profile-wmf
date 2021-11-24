@@ -10,12 +10,12 @@ module.exports = {
         plugins: [
             new ModuleFederationPlugin({
                 name: "profile",
-                // filename: "remoteProfileEntry.js",
+                filename: "remoteProfileEntry.js",
                 remotes: {
                     // shell: "shell@http://localhost:8083/remoteEntry.js",
                 },
                 exposes: {
-                    // "./Profile": "./src/views/Profile.vue",
+                    "./Profile": "./src/views/Profile.vue",
                 },
                 // shared: {
                 //     vuex: {
