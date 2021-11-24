@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import ProfileRoutes from "./profileRoutes.js";
 
 Vue.use(VueRouter);
 
@@ -9,11 +10,7 @@ const routes = [
     name: "Home",
     component: () => import("../views/Home.vue"),
   },
-  {
-    path: "/profile",
-    name: "Profile",
-    component: () => import("../views/Profile.vue"),
-  },
+  ...ProfileRoutes
 ];
 
 const router = new VueRouter({

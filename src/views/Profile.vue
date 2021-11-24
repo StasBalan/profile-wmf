@@ -11,6 +11,8 @@
     <button @click="handleIncCount">
       <b>Plus +</b>
     </button>
+
+    <router-link to="/profile/new">Go to profie new</router-link>
   </div>
 </template>
 
