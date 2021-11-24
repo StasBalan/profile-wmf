@@ -1,13 +1,16 @@
+import Profile from "../views/Profile.vue";
+import ProfileNew from "../views/ProfileNew.vue";
+
 const ProfileRoutes = [
     {
       path: "/profile",
       name: "Profile",
-      component: () => import("../views/Profile.vue"),
+      component: Profile,
     },
     {
       path: "/profile/new",
       name: "ProfileNew",
-      component: () => import("../views/ProfileNew.vue"),
+      component: ProfileNew,
     },
 ];
 

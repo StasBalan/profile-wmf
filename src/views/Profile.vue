@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <h1>PROFILE asdfa sfsfsfsfs 123123123 rrrasds</h1>
+    <h1>PROFILE asdfa sfsfsfsfs</h1>
     {{ $store.state.countModule.count }}
 
     <img alt="Vue logo" src="../assets/logo.png" />
