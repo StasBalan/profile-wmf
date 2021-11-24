@@ -1,6 +1,6 @@
 const ModuleFederationPlugin = require("webpack").container.ModuleFederationPlugin;
 // const deps = require('./package.json').dependencies;
-console.log(process.env.NODE_ENV);
+
 module.exports = {
     devServer: {
         port: 8084,
