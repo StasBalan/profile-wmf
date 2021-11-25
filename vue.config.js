@@ -15,8 +15,8 @@ module.exports = {
                     shell: "shell@https://shell-wmf.vercel.app/remoteEntry.js",
                 },
                 exposes: {
-                    "./Profile": "./src/views/Profile.vue",
-                    "./ProfileNew": "./src/views/ProfileNew.vue",
+                    // "./Profile": "./src/views/Profile.vue",
+                    // "./ProfileNew": "./src/views/ProfileNew.vue",
                     "./ProfileRoutes": "./src/router/profileRoutes"
                 },
                 // shared: {
